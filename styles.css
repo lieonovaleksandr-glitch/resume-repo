@@ -818,7 +818,7 @@ h1 {
 
   .extra-stats > div {
     display: grid;
-    grid-template-columns: 42px auto;
+    grid-template-columns: 42px 86px;
     justify-content: center;
     column-gap: 24px;
   }
