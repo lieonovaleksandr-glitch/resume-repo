@@ -816,6 +816,17 @@ h1 {
     gap: 18px;
   }
 
+  .extra-stats > div {
+    display: grid;
+    grid-template-columns: 42px auto;
+    justify-content: center;
+    column-gap: 24px;
+  }
+
+  .extra-stats svg {
+    justify-self: center;
+  }
+
   .extra-stats > div + div {
     padding-top: 18px;
     border-top: 1px solid var(--line);
