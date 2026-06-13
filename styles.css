@@ -524,53 +524,6 @@ h1 {
   line-height: 1;
 }
 
-.extra-stats {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin-top: 20px;
-  padding-top: 22px;
-  border-top: 1px solid var(--line);
-}
-
-.extra-stats > div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 24px;
-}
-
-.extra-stats > div + div {
-  border-left: 1px solid var(--line);
-}
-
-.extra-stats svg {
-  width: 38px;
-  height: 38px;
-  color: #9f5b42;
-  fill: none;
-  stroke: currentColor;
-  stroke-width: 1.9;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-}
-
-.extra-stats strong,
-.extra-stats span {
-  display: block;
-}
-
-.extra-stats strong {
-  font-size: 31px;
-  line-height: 1;
-  font-weight: 850;
-}
-
-.extra-stats span {
-  margin-top: 4px;
-  color: #5d534b;
-  font-size: 15px;
-}
-
 .contact-card {
   margin-top: 24px;
   padding: 20px 32px 18px;
@@ -809,28 +762,6 @@ h1 {
   .skill {
     width: 100%;
     justify-content: flex-start;
-  }
-
-  .extra-stats {
-    grid-template-columns: 1fr;
-    gap: 18px;
-  }
-
-  .extra-stats > div {
-    display: grid;
-    grid-template-columns: 42px 86px;
-    justify-content: center;
-    column-gap: 24px;
-  }
-
-  .extra-stats svg {
-    justify-self: center;
-  }
-
-  .extra-stats > div + div {
-    padding-top: 18px;
-    border-top: 1px solid var(--line);
-    border-left: 0;
   }
 
   .contact-card {

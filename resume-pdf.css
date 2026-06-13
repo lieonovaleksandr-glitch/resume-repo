@@ -471,56 +471,6 @@ li + li {
     #21468b;
 }
 
-.typing {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin-top: 3.1mm;
-  padding-top: 3mm;
-  border-top: 0.3mm solid var(--line);
-}
-
-.typing p {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 3mm;
-  text-align: left;
-}
-
-.typing p + p {
-  border-left: 0.3mm solid var(--line);
-}
-
-.typing strong,
-.typing em {
-  display: block;
-}
-
-.typing svg {
-  width: 7.2mm;
-  height: 7.2mm;
-  flex: 0 0 7.2mm;
-  color: #9f5b42;
-  fill: none;
-  stroke: currentColor;
-  stroke-width: 1.9;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-}
-
-.typing strong {
-  font-size: 14.8pt;
-  line-height: 1;
-  font-weight: 850;
-}
-
-.typing em {
-  margin-top: 1.2mm;
-  color: #5d534b;
-  font-size: 7.8pt;
-  font-style: normal;
-}
-
 .contact {
   margin-top: 5mm;
   padding: 3.5mm 5mm 3.2mm;
